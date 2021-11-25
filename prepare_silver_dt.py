@@ -64,7 +64,7 @@ if __name__ == '__main__':
     version_dir = './models'
     model_path = os.path.join(version_dir, 'roberta-large-mnli_epoch-1_step-5701.ckpt')
     model = PairwiseDiscourseModel.load_from_checkpoint(checkpoint_path=model_path, hparams_file=os.path.join(version_dir, 'hparams.yaml'))
-    tokenizer = RobertaTokenizer.from_pretrained('/tmp-network/user/zaemyung-kim/projects/discourse_MT/PDTB_relation_classifier/models/roberta-large-mnli', use_fast=True)
+    tokenizer = RobertaTokenizer.from_pretrained(os.path.join(version_dir, 'roberta-large-mnli'), use_fast=True)
     tokenizer.model_max_length = 512
 
     sent_pairs = []
