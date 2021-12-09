@@ -53,22 +53,27 @@ def chunks(lst, n):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
-        raise ValueError('Usage: python prepare_silver_dt.py n_parts split_ind corpus_dir')
+    if len(sys.argv) != 5:
+        raise ValueError('Usage: python prepare_silver_dt.py n_parts split_ind first_sent_path second_sent_path')
     n_parts = int(sys.argv[1])
     split_ind = int(sys.argv[2])
-    silver_dir = sys.argv[2]
+    first_sent_path = sys.argv[3]
+    second_sent_path = sys.argv[4]
+    assert os.path.isfile(first_sent_path)
+    assert os.path.isfile(second_sent_path)
+    assert os.path.dirname(first_sent_path) == os.path.dirname(second_sent_path)
 
+    silver_dir = os.path.dirname(first_sent_path)
     batch_size = 50
 
-    version_dir = './models'
-    model_path = os.path.join(version_dir, 'roberta-large-mnli_epoch-1_step-5701.ckpt')
-    model = PairwiseDiscourseModel.load_from_checkpoint(checkpoint_path=model_path, hparams_file=os.path.join(version_dir, 'hparams.yaml'))
-    tokenizer = RobertaTokenizer.from_pretrained(os.path.join(version_dir, 'roberta-large-mnli'), use_fast=True)
+    model_dir = '/tmp-network/user/zaemyung-kim/projects/discourse_style/Discourse-Sentiment/PDTB-discourse-relation-classifier/models'
+    model_path = os.path.join(model_dir, 'classifier', 'classifier.ckpt')
+    model = PairwiseDiscourseModel.load_from_checkpoint(checkpoint_path=model_path, hparams_file=os.path.join(model_dir, 'classifier', 'hparams.yaml'))
+    tokenizer = RobertaTokenizer.from_pretrained(os.path.join(model_dir, 'roberta-large-mnli'), use_fast=True)
     tokenizer.model_max_length = 512
 
     sent_pairs = []
-    with open(os.path.join(silver_dir, 'first_sents.en'), 'r') as first_f, open(os.path.join(silver_dir, 'second_sents.en'), 'r') as second_f:
+    with open(first_sent_path, 'r') as first_f, open(second_sent_path, 'r') as second_f:
         for first, second in zip(first_f, second_f):
             first = first.strip()
             second = second.strip()
