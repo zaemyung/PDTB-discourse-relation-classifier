@@ -13,6 +13,21 @@ from discourse_baseline import PairwiseDiscourseModel
 sys.path.append('..')
 
 
+INDEX_TO_DT = {
+    0: '<DT:NoClass>',
+    1: '<DT:Temporal>',
+    2: '<DT:Causation>',
+    3: '<DT:Conditional>',
+    4: '<DT:Purpose>',
+    5: '<DT:Contrast>',
+    6: '<DT:Conjunction>',
+    7: '<DT:Disjunction>',
+    8: '<DT:Expansion>',
+    9: '<DT:Concession>',
+    10: '<DT:Similarity>'
+}
+
+
 def convert_to_features(data):
     # e.g. [0, 31414, 6, 127, 766, 16, 2084, 139, 2, 2, 34033, 7, 972, 47, 2]
     arg1_sentence, arg2_sentence = data
@@ -99,7 +114,8 @@ if __name__ == '__main__':
 
     assert len(splitted_part) == len(all_preds)
     for i, (data, pred) in enumerate(zip(splitted_part, all_preds)):
-        data = *data, pred.item()
+        dt = INDEX_TO_DT[pred.item()]
+        data = *data, dt
         splitted_part[i] = data
 
     with open(os.path.join(silver_dir, f'splitted_part_{split_ind}.pkl'), 'wb') as f:
