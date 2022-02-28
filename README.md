@@ -17,11 +17,10 @@ python discourse_baseline.py
 ```
 
 ## Inference
-- Prepare two sentences (or phrases) that a discourse relation is to be classified, and save them as `first_sents.en` and `second_sents.en`, respectively.
-- Run `python prepare_silver_dt.py n_parts split_ind corpus_dir` where:
-  - `n_parts`: the number of data splits for the `first_sents.en` and `second_sents.en`
+- Prepare two sentences (or phrases) that a discourse relation is to be classified, and save them to `first_sent_path` and `second_sent_path` respectively.
+- Run `python prepare_silver_dt.py n_parts split_ind first_sent_path second_sent_path`
+  - `n_parts`: the number of data splits for the data.
   - `split_id`: current index of the data splits
-  - `corpus_dir`: path to the directory where `first_sents.en` and `second_sents.en` are saved
-  - So if you want to split the corpus into three parts, and conduct inference on the first part, it would be:
-    - `python prepare_silver_dt.py 3 0 path/to/corpus_dir`
-    - The second and third part can be run on different SLURM servers
+- So if you want to split the corpus into three parts, and conduct inference on the first part, it would be:
+  - `python prepare_silver_dt.py 3 0 path/to/first_sent path/to/second_sent`
+  - The second and third parts can be run separately on different SLURM servers

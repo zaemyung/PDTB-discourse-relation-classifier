@@ -1,0 +1,477 @@
+a day after	<DT:Temporal>
+a few days after	<DT:Temporal>
+a few hours after	<DT:Temporal>
+a few weeks before	<DT:Temporal>
+a minute later	<DT:Temporal>
+a week after	<DT:Temporal>
+a week later	<DT:Temporal>
+a year after	<DT:Temporal>
+about	<DT:Expansion>
+above	<DT:Expansion>
+above all	<DT:Conjunction>
+according to	<DT:Causation>
+accordingly	<DT:Causation>
+across	<DT:Expansion>
+actually	<DT:Expansion>
+additionally	<DT:Conjunction>
+adjacent to	<DT:Conjunction>
+admittedly	<DT:Concession>
+after	<DT:Temporal>
+after a short time	<DT:Temporal>
+after a while	<DT:Temporal>
+after all	<DT:Causation>
+afterward	<DT:Temporal>
+afterwards	<DT:Temporal>
+again	<DT:Temporal>
+again and again	<DT:Temporal>
+albeit	<DT:Concession>
+all the same	<DT:Similarity>
+almost	<DT:Expansion>
+along	<DT:Conjunction>
+along with	<DT:Conjunction>
+also	<DT:Conjunction>
+alternatively	<DT:Disjunction>
+although	<DT:Causation>
+an effect of	<DT:Causation>
+and	<DT:Conjunction>
+and also	<DT:Conjunction>
+and then	<DT:Conjunction>
+and yet	<DT:Concession>
+another	<DT:Temporal>
+anyhow	<DT:Concession>
+anyway	<DT:Conjunction>
+apart from	<DT:Conditional>
+apparently	<DT:Expansion>
+apparently because	<DT:Causation>
+arguably	<DT:Expansion>
+as	<DT:Causation>
+as a consequence	<DT:Causation>
+as a matter of fact	<DT:Conjunction>
+as a result	<DT:Causation>
+as a result of	<DT:Causation>
+as a rule	<DT:Causation>
+as a rule of thumb	<DT:Expansion>
+as an alternative	<DT:Expansion>
+as follows	<DT:Causation>
+as for	<DT:Expansion>
+as if	<DT:Similarity>
+as long as	<DT:Conjunction>
+as much as	<DT:Similarity>
+as opposed to	<DT:Contrast>
+as so	<DT:Similarity>
+as soon as	<DT:Temporal>
+as stated	<DT:Expansion>
+as though	<DT:Similarity>
+as well	<DT:Conjunction>
+as well as	<DT:Similarity>
+as with	<DT:Similarity>
+as you can see	<DT:Expansion>
+aside from	<DT:Concession>
+assuming that	<DT:Expansion>
+at any rate	<DT:Conjunction>
+at first	<DT:Temporal>
+at last	<DT:Temporal>
+at least	<DT:Concession>
+at least not when	<DT:Conditional>
+at least until	<DT:Temporal>
+at least when	<DT:Temporal>
+at once	<DT:Temporal>
+at that moment	<DT:Temporal>
+at the same time	<DT:Temporal>
+at the top	<DT:Conjunction>
+at this moment	<DT:Temporal>
+at this point	<DT:Causation>
+back when	<DT:Temporal>
+basically	<DT:Expansion>
+because	<DT:Causation>
+because of	<DT:Causation>
+because of this	<DT:Causation>
+before	<DT:Temporal>
+before that	<DT:Temporal>
+behind	<DT:Expansion>
+below	<DT:Conjunction>
+besides	<DT:Conjunction>
+beyond	<DT:Expansion>
+both	<DT:Conjunction>
+briefly	<DT:Temporal>
+broadly speaking	<DT:Expansion>
+but	<DT:Concession>
+but also	<DT:Concession>
+but that	<DT:Concession>
+but then	<DT:Concession>
+but then again	<DT:Concession>
+by	<DT:Expansion>
+by and by	<DT:Temporal>
+by comparison	<DT:Similarity>
+by contrast	<DT:Contrast>
+by the same token	<DT:Similarity>
+by the time	<DT:Temporal>
+by then	<DT:Temporal>
+caused by	<DT:Causation>
+certainly	<DT:Causation>
+clearly	<DT:Expansion>
+compared with	<DT:Similarity>
+consequently	<DT:Causation>
+contrary to	<DT:Contrast>
+conversely	<DT:Contrast>
+decades before	<DT:Temporal>
+depending on	<DT:Causation>
+despite	<DT:Concession>
+despite this	<DT:Concession>
+due to	<DT:Causation>
+during	<DT:Temporal>
+e.g.	<DT:Expansion>
+earlier	<DT:Temporal>
+either	<DT:Disjunction>
+else	<DT:Disjunction>
+elsewhere	<DT:Temporal>
+equally	<DT:Similarity>
+equally important	<DT:Similarity>
+especially after	<DT:Temporal>
+especially as	<DT:Expansion>
+especially because	<DT:Causation>
+especially if	<DT:Conditional>
+especially since	<DT:Causation>
+especially when	<DT:Expansion>
+especially with	<DT:Expansion>
+essentially	<DT:Expansion>
+even	<DT:Conjunction>
+even after	<DT:Temporal>
+even as	<DT:Causation>
+even before	<DT:Temporal>
+even if	<DT:Causation>
+even so	<DT:Concession>
+even then	<DT:Concession>
+even though	<DT:Concession>
+even when	<DT:Concession>
+even while	<DT:Concession>
+even with	<DT:Concession>
+eventually	<DT:Temporal>
+ever since	<DT:Temporal>
+exactly	<DT:Expansion>
+except	<DT:Concession>
+except for	<DT:Concession>
+fifth	<DT:Temporal>
+finally	<DT:Temporal>
+first	<DT:Temporal>
+first of all	<DT:Expansion>
+firstly	<DT:Temporal>
+following	<DT:Temporal>
+for	<DT:Causation>
+for all	<DT:Causation>
+for another	<DT:Contrast>
+for example	<DT:Expansion>
+for instance	<DT:Expansion>
+for one thing	<DT:Causation>
+for this purpose	<DT:Purpose>
+for this reason	<DT:Purpose>
+fortunately	<DT:Concession>
+fourth	<DT:Temporal>
+frequently	<DT:Temporal>
+from	<DT:Expansion>
+from here on	<DT:Concession>
+further	<DT:Expansion>
+furthermore	<DT:Expansion>
+generally	<DT:Expansion>
+given	<DT:Causation>
+given that	<DT:Expansion>
+gradually	<DT:Temporal>
+granted	<DT:Concession>
+having said this	<DT:Concession>
+hence	<DT:Causation>
+henceforth	<DT:Causation>
+here	<DT:Expansion>
+however	<DT:Concession>
+i.e.	<DT:Conjunction>
+ideally	<DT:Expansion>
+if	<DT:Conditional>
+if and when	<DT:Conditional>
+if only	<DT:Causation>
+immediately	<DT:Temporal>
+immediately after	<DT:Temporal>
+in	<DT:Expansion>
+in accordance with	<DT:Expansion>
+in addition	<DT:Conjunction>
+in addition to	<DT:Conjunction>
+in any case	<DT:Concession>
+in case	<DT:Expansion>
+in case that	<DT:Causation>
+in conclusion	<DT:Expansion>
+in contrast	<DT:Contrast>
+in contrast to	<DT:Contrast>
+in essence	<DT:Expansion>
+in fact	<DT:Conjunction>
+in future	<DT:Temporal>
+in general	<DT:Expansion>
+in most cases	<DT:Expansion>
+in order	<DT:Purpose>
+in order to	<DT:Purpose>
+in other respects	<DT:Expansion>
+in other words	<DT:Expansion>
+in part because	<DT:Causation>
+in particular	<DT:Expansion>
+in reality	<DT:Expansion>
+in short	<DT:Expansion>
+in spite of	<DT:Concession>
+in spite of this	<DT:Concession>
+in summary	<DT:Expansion>
+in that	<DT:Temporal>
+in that case	<DT:Causation>
+in that respect	<DT:Similarity>
+in the background	<DT:Temporal>
+in the beginning	<DT:Temporal>
+in the case of	<DT:Expansion>
+in the end	<DT:Temporal>
+in the first place	<DT:Expansion>
+in the mean time	<DT:Temporal>
+in the meantime	<DT:Temporal>
+in the meanwhile	<DT:Temporal>
+in the past	<DT:Temporal>
+in the same way	<DT:Expansion>
+in this respect	<DT:Causation>
+in this way	<DT:Causation>
+in truth	<DT:Conjunction>
+including	<DT:Expansion>
+indeed	<DT:Conjunction>
+initially	<DT:Temporal>
+inside	<DT:Conjunction>
+insofar as	<DT:Concession>
+instead	<DT:Expansion>
+instead of	<DT:Expansion>
+it follows that	<DT:Causation>
+just	<DT:Expansion>
+just after	<DT:Temporal>
+just as	<DT:Causation>
+just as important	<DT:Similarity>
+just because	<DT:Causation>
+just before	<DT:Temporal>
+just by	<DT:Expansion>
+just days before	<DT:Temporal>
+just in case	<DT:Causation>
+just then	<DT:Temporal>
+just when	<DT:Temporal>
+largely because	<DT:Causation>
+last	<DT:Expansion>
+lastly	<DT:Conjunction>
+later	<DT:Temporal>
+later on	<DT:Temporal>
+lest	<DT:Conjunction>
+let	<DT:Conjunction>
+let alone	<DT:Conjunction>
+like	<DT:Conjunction>
+likely	<DT:Expansion>
+likewise	<DT:Similarity>
+literally	<DT:Expansion>
+long before	<DT:Temporal>
+mainly because	<DT:Causation>
+maybe	<DT:Expansion>
+meantime	<DT:Temporal>
+meanwhile	<DT:Temporal>
+more	<DT:Expansion>
+more accurately	<DT:Expansion>
+more effective	<DT:Conjunction>
+more importantly	<DT:Conjunction>
+moreover	<DT:Conjunction>
+most of all	<DT:Conjunction>
+most of the time	<DT:Temporal>
+mostly	<DT:Conjunction>
+much as	<DT:Similarity>
+much less	<DT:Expansion>
+namely	<DT:Expansion>
+naturally	<DT:Causation>
+nearby	<DT:Conjunction>
+neither	<DT:Disjunction>
+nevertheless	<DT:Concession>
+next	<DT:Temporal>
+next day	<DT:Temporal>
+next time	<DT:Temporal>
+no matter	<DT:Expansion>
+no matter how	<DT:Concession>
+nonetheless	<DT:Concession>
+nor	<DT:Contrast>
+not because	<DT:Causation>
+not because of	<DT:Causation>
+not like	<DT:Contrast>
+not long after	<DT:Temporal>
+not only	<DT:Conjunction>
+not so long ago	<DT:Temporal>
+not so much as	<DT:Similarity>
+notably	<DT:Conjunction>
+notwithstanding	<DT:Concession>
+now	<DT:Temporal>
+now that	<DT:Temporal>
+obviously	<DT:Causation>
+occasionally	<DT:Temporal>
+of course	<DT:Concession>
+often	<DT:Temporal>
+on	<DT:Expansion>
+on average	<DT:Conjunction>
+on one hand	<DT:Contrast>
+on the contrary	<DT:Contrast>
+on the one hand	<DT:Contrast>
+on the other	<DT:Contrast>
+on the other hand	<DT:Contrast>
+on the other side	<DT:Contrast>
+on the whole	<DT:Expansion>
+on top of that	<DT:Conjunction>
+once	<DT:Temporal>
+once again	<DT:Expansion>
+once upon a time	<DT:Temporal>
+one day after	<DT:Temporal>
+one reason is that	<DT:Causation>
+only	<DT:Concession>
+only after	<DT:Temporal>
+only because	<DT:Causation>
+only by	<DT:Causation>
+only if	<DT:Conditional>
+only when	<DT:Conditional>
+opposite	<DT:Contrast>
+or	<DT:Disjunction>
+originally	<DT:Expansion>
+otherwise	<DT:Contrast>
+outside	<DT:Expansion>
+over and over	<DT:Expansion>
+particularly	<DT:Expansion>
+partly because	<DT:Causation>
+partly because of	<DT:Causation>
+perhaps	<DT:Causation>
+perhaps because	<DT:Causation>
+plus	<DT:Conjunction>
+presently	<DT:Temporal>
+presumably	<DT:Causation>
+previously	<DT:Temporal>
+primarily because	<DT:Causation>
+prior to	<DT:Temporal>
+probably	<DT:Expansion>
+probably by	<DT:Expansion>
+provided	<DT:Conjunction>
+providing	<DT:Expansion>
+rather	<DT:Expansion>
+rather than	<DT:Expansion>
+really	<DT:Expansion>
+recently	<DT:Temporal>
+regardless	<DT:Concession>
+regardless of	<DT:Concession>
+right after	<DT:Temporal>
+roughly	<DT:Expansion>
+say	<DT:Expansion>
+second	<DT:Temporal>
+secondly	<DT:Temporal>
+seeing that	<DT:Causation>
+separately	<DT:Disjunction>
+seven years after	<DT:Temporal>
+shortly after	<DT:Temporal>
+shortly afterward	<DT:Temporal>
+shortly afterwards	<DT:Temporal>
+shortly before	<DT:Temporal>
+shortly thereafter	<DT:Temporal>
+significantly	<DT:Conjunction>
+similarly	<DT:Similarity>
+simply because	<DT:Causation>
+simply by	<DT:Expansion>
+simultaneously	<DT:Temporal>
+since	<DT:Causation>
+so	<DT:Causation>
+so as	<DT:Purpose>
+so long as	<DT:Concession>
+so that	<DT:Purpose>
+so then	<DT:Causation>
+sometimes	<DT:Conjunction>
+soon	<DT:Temporal>
+soon after	<DT:Temporal>
+specifically	<DT:Expansion>
+still	<DT:Concession>
+subsequently	<DT:Temporal>
+such as	<DT:Expansion>
+suddenly	<DT:Temporal>
+suppose	<DT:Expansion>
+surely	<DT:Expansion>
+surprisingly	<DT:Concession>
+than	<DT:Concession>
+thankfully	<DT:Expansion>
+that	<DT:Expansion>
+that is	<DT:Expansion>
+that is to say	<DT:Expansion>
+the following day	<DT:Temporal>
+the next	<DT:Temporal>
+the reason that	<DT:Purpose>
+then	<DT:Temporal>
+there	<DT:Temporal>
+thereafter	<DT:Temporal>
+thereby	<DT:Causation>
+therefore	<DT:Causation>
+these include	<DT:Expansion>
+third	<DT:Temporal>
+thirdly	<DT:Temporal>
+this	<DT:Expansion>
+this causes	<DT:Causation>
+this results in	<DT:Causation>
+though	<DT:Causation>
+three days later	<DT:Temporal>
+three years after	<DT:Temporal>
+through	<DT:Expansion>
+throughout	<DT:Conjunction>
+thus	<DT:Causation>
+thus far	<DT:Temporal>
+til	<DT:Temporal>
+till	<DT:Temporal>
+to be honest	<DT:Expansion>
+to begin	<DT:Temporal>
+to begin with	<DT:Temporal>
+to clarify	<DT:Expansion>
+to date	<DT:Temporal>
+to illustrate	<DT:Expansion>
+to start with	<DT:Temporal>
+to sum it up	<DT:Expansion>
+to sum up	<DT:Expansion>
+to summarize	<DT:Expansion>
+to tell you the truth	<DT:Expansion>
+to the left	<DT:Expansion>
+to the right	<DT:Conjunction>
+to this end	<DT:Purpose>
+today	<DT:Temporal>
+tomorrow	<DT:Temporal>
+truly	<DT:Expansion>
+two days before	<DT:Temporal>
+two years before	<DT:Temporal>
+typically	<DT:Causation>
+typically, if	<DT:Conditional>
+ultimately	<DT:Temporal>
+under these circumstances	<DT:Causation>
+under these conditions	<DT:Causation>
+underneath	<DT:Conjunction>
+understandably	<DT:Causation>
+undoubtedly	<DT:Causation>
+unfortunately	<DT:Concession>
+unless	<DT:Conditional>
+unlike	<DT:Contrast>
+until	<DT:Temporal>
+until then	<DT:Causation>
+upon	<DT:Temporal>
+usually when	<DT:Temporal>
+westward	<DT:Expansion>
+what is more	<DT:Expansion>
+whatever	<DT:Expansion>
+when	<DT:Temporal>
+whence	<DT:Causation>
+whenever	<DT:Temporal>
+where	<DT:Causation>
+whereas	<DT:Contrast>
+wherefore	<DT:Causation>
+wherein	<DT:Expansion>
+whereupon	<DT:Causation>
+wherever	<DT:Expansion>
+whether	<DT:Expansion>
+while	<DT:Expansion>
+whilst	<DT:Causation>
+whither	<DT:Expansion>
+whoever	<DT:Expansion>
+with	<DT:Conjunction>
+with this in mind	<DT:Purpose>
+without	<DT:Expansion>
+years after	<DT:Temporal>
+years before	<DT:Temporal>
+years later	<DT:Temporal>
+yesterday	<DT:Temporal>
+yet	<DT:Concession>
+yet again	<DT:Causation>

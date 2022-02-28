@@ -1,0 +1,4 @@
+# Pytorch
+transformers
+pytorch-lightning
+torchmetrics
