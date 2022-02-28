@@ -16,6 +16,9 @@
 python discourse_baseline.py
 ```
 
+## Download pre-trained model
+- Link
+
 ## Inference
 - Prepare two sentences (or phrases) that a discourse relation is to be classified, and save them to `first_sent_path` and `second_sent_path` respectively.
 - Run `python prepare_silver_dt.py n_parts split_ind first_sent_path second_sent_path`
